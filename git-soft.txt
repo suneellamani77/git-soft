@@ -1,0 +1,19 @@
+        List<String>  valueStrings = new ArrayList<>(Arrays.asList("10".split("\\|")));
+        List<Long> values = valueStrings.stream().map(Long::parseLong).collect(Collectors.toList());
+        valueStrings.add("BirdzShotgunBonusMockDesc");
+        values.add(1L);
+        torch.forceValue(player, GAME_NAME, values, valueStrings);
+
+
+<Output name="BirdzZapBonusMockDesc" value="0"/>
+					<!-- Shotgun and Shotgun x2 Bonus Random Symbol -->
+					<Output name="BirdzShotgunBonusMockDesc" value="0"/>
+
+--------------------------------------------------------------------------------------------------------
+
+					<!-- Cracking Wilds Bonus Random Columns -->
+					<Output name="BirdzCrackingWildsBonusMockDesc" value="1"/>
+					<!-- ZAP Bonus Random Row -->
+					<Output name="BirdzZapBonusMockDesc" value="0"/>
+					<!-- Shotgun and Shotgun x2 Bonus Random Symbol -->
+					<Output name="BirdzShotgunBonusMockDesc" value="0"/>
